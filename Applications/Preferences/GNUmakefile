@@ -22,7 +22,7 @@ SUBPROJECTS = \
 	Modules/Mouse \
 	Modules/Sound \
 	Modules/Expert \
-	Modules/Password
+	Modules/Password 
 #	Modules/Power
 
 #

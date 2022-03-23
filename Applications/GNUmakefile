@@ -11,7 +11,9 @@ SUBPROJECTS = \
 	TextEdit \
 	TimeMon \
 	Review \
-	OpenUp
+	OpenUp \
+        Network
+    
 
 -include GNUmakefile.preamble
 include $(GNUSTEP_MAKEFILES)/aggregate.make
