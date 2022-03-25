@@ -11,8 +11,7 @@ SUBPROJECTS = \
 	TextEdit \
 	TimeMon \
 	Review \
-	OpenUp \
-        Network
+	OpenUp 
     
 
 -include GNUmakefile.preamble
