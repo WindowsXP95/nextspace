@@ -11,7 +11,7 @@ include $(GNUSTEP_MAKEFILES)/common.make
 
 APP_NAME = Terminal
 PACKAGE_NAME = Terminal
-VERSION = 0.98
+VERSION = 1.0
 Terminal_APPLICATION_ICON = Terminal.tiff
 Terminal_MAIN_MODEL_FILE = Terminal.gorm
 

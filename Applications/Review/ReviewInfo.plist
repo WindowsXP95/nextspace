@@ -7,7 +7,7 @@
     Authors = (
 	"Serg Stoyan <stoyan255@ukr.net>"
     );
-    Copyright = "Copyright (C) 2005";
+    Copyright = "Copyright (C) 2022 The NextSpace Project";
     CopyrightDescription = "Released under GPL 2.0";
     FullVersionID = "0.1";
     NOTE = "Automatically generated, do not edit!";

@@ -37,7 +37,8 @@ $(APP_NAME)_RESOURCE_FILES = \
 	Modules/Mouse/Mouse.preferences \
 	Modules/Sound/Sound.preferences \
 	Modules/Expert/Expert.preferences \
-	Modules/Password/Password.preferences
+	Modules/Password/Password.preferences\
+        Modules/Date/Date.preferences
 
 #	Modules/Power/Power.preferences
 

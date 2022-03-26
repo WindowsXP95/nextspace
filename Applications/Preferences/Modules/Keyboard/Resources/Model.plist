@@ -26,8 +26,8 @@
     "Aluminium JIS" = { "applealu_jis" = "Apple Aluminium Keyboard (JIS)"; };
     "MacBook/MacBook Pro" = { "macbook78" = "MacBook/MacBook Pro"; };
     "MacBook/MacBook Pro (Intl)" = { "macbook79" = "MacBook/MacBook Pro (Intl)"; };
-    "Macontish" = { "macintosh" = "Macintosh"; };
-    "Macontish Old" = { "macintosh_old" = "Macintosh Old"; };
+    "Macintosh" = { "macintosh" = "Macintosh"; };
+    "Macintosh Old" = { "macintosh_old" = "Macintosh Old"; };
   };
   "ASUS" = {
     "Laptop" = {"asus_laptop" = "Asus Laptop"; };
