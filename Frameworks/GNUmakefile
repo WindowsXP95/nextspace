@@ -4,11 +4,12 @@
 include $(GNUSTEP_MAKEFILES)/common.make
 
 PACKAGE_NAME = nextspace-frameworks
-VERSION = 0.91
+VERSION = 0.92
 SUBPROJECTS = \
     SystemKit \
     DesktopKit \
-    SoundKit
+    SoundKit \
+    Pantomime
 
 -include GNUmakefile.preamble
 include $(GNUSTEP_MAKEFILES)/aggregate.make

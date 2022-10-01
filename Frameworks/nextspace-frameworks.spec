@@ -1,7 +1,7 @@
 Name:           nextspace-frameworks
-Version:        0.91
+Version:        0.92
 Release:        0%{?dist}
-Summary:        NextSpace core libraries.
+Summary:        NextSpace OS core libraries.
 Group:          Libraries/NextSpace
 License:        GPLv2
 URL:		http://www.github.com/trunkmaster/nextspace
@@ -10,6 +10,7 @@ Source0:	nextspace-frameworks-%{version}.tar.gz
 Provides:	DesktopKit.so
 Provides:	SystemKit.so
 Provides:	SoundKit.so
+Provides:       Pantomime.so
 
 %if 0%{?el7}
 BuildRequires:	llvm-toolset-7.0-clang >= 7.0.1
@@ -49,11 +50,11 @@ Requires:	pulseaudio >= 10.0
 NextSpace libraries.
 
 %package devel
-Summary:	NextSpace core libraries (SystemKit, DesktopKit, SoundKit).
+Summary:	NextSpace core libraries (SystemKit, DesktopKit, SoundKit, Pantomime).
 Requires:	%{name}%{?_isa} = %{version}-%{release}
 
 %description devel
-Header files for NextSpace core libraries (SystemKit, DesktopKit, SoundKit).
+Header files for NextSpace core libraries (SystemKit, DesktopKit, SoundKit, Pantomime).
 
 %prep
 %setup
@@ -83,6 +84,10 @@ cd SoundKit
 make
 cd ..
 
+cd Pantomime
+make
+cd ..
+
 #
 # Build install phase
 #
@@ -99,6 +104,10 @@ cd DesktopKit
 cd ..
 
 cd SoundKit
+%{make_install}
+cd ..
+
+cd Pantomime
 %{make_install}
 cd ..
 

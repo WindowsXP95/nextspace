@@ -1,7 +1,7 @@
 Name:           nextspace-applications
-Version:        0.91
+Version:        0.92
 Release:        0%{?dist}
-Summary:        NextSpace desktop core applications.
+Summary:        NextSpace OS desktop core applications.
 
 Group:          Libraries/NextSpace
 License:        GPLv2
